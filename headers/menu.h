@@ -3,11 +3,7 @@
 
 #define MAX_FILEPATH_RECORDED 2
 
-#ifdef RELEASE
-#include "../headers/raylib.h"
-#else
 #include <raylib.h>
-#endif // RELEASE
 #include <stdlib.h>
 #include <string.h>
 

@@ -1,11 +1,7 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#ifdef RELEASE
-#include "../headers/raylib.h"
-#else
 #include <raylib.h>
-#endif // RELEASE
 #include <stdbool.h>
 #include "../headers/tokenizer.h"
 #include "../headers/menu.h"
